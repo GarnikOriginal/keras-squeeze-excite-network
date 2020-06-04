@@ -18,7 +18,7 @@ if TF:
     from tensorflow.keras.applications import imagenet_utils
     from tensorflow.keras.backend import is_keras_tensor, depthwise_conv2d
     from tensorflow.keras.layers import InputSpec
-    from tensorflow.keras.utils import conv_utils, get_source_inputs
+    from tensorflow.python.keras.utils import conv_utils, get_source_inputs
 else:
     from keras import initializers, regularizers, constraints, backend as K
     from keras.layers import (Input, Activation, Dropout, Reshape, BatchNormalization,
